@@ -8,6 +8,7 @@ scalaVersion := "2.12.7"
 
 resolvers += "Java.net Maven2 Repository" at "http://download.java.net/maven/2/"
 libraryDependencies += "org.hibernate" % "hibernate-core" % "5.3.7.Final"
+libraryDependencies += "javax.xml.bind" % "jaxb-api" % "2.3.0"
 
 
 
